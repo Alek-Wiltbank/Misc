@@ -1,0 +1,23 @@
+@keyframes flickerAnimation {
+  0%   { opacity:.25; }
+  25%  { opacity:1; }
+  50% { opacity:.25; }
+  100% { opacity:.25; }
+}
+
+.pulse-left {
+    opacity:1;  
+    animation: flickerAnimation 3s infinite;
+}
+
+@keyframes flickerAnimation2 {
+  0%   { opacity:.25; }
+  50%  { opacity:.25; }
+  75% { opacity:1; }
+  100% { opacity:.25; }
+}
+
+.pulse-right {
+    opacity:1;  
+     animation: flickerAnimation2 3s infinite;
+}
