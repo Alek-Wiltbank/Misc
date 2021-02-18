@@ -1,0 +1,67 @@
+<script>
+
+	// Mega Menu Tabs
+	
+jQuery(function($){
+	$(document).ready(function(){
+		$('#mega-menu-atvs-submenu').hide();
+		$('#mega-menu-dirtbikes-submenu').hide();
+		$('#mega-menu-go-karts-submenu').hide();
+		$('#mega-menu-mopeds-trikes-submenu').hide();
+		$('#mega-menu-mobility-scooters-submenu').hide();
+		$('#mega-menu-utvs-golf-carts-submenu').hide();
+		$('#mega-menu-electric-units-submenu').hide();
+		$('#mega-menu-radio-control-submenu').hide();
+						
+			
+
+		$( "#mega-menu-atvs" ).mouseenter(function() {$( "#mega-menu-atvs-submenu" ).show(300);}); 
+		$( "#mega-menu-atvs" ).mouseleave(function() {$( "#mega-menu-atvs-submenu" ).hide();});
+		$( "#mega-menu-atvs-submenu" ).mouseenter(function() {$( "#mega-menu-atvs-submenu" ).show();});
+		$( "#mega-menu-atvs-submenu" ).mouseleave(function() {$( "#mega-menu-atvs-submenu" ).hide(100);});
+
+			
+		$( "#mega-menu-dirtbikes" ).mouseenter(function() {$( "#mega-menu-dirtbikes-submenu" ).show(300);});
+		$( "#mega-menu-dirtbikes" ).mouseleave(function() {$( "#mega-menu-dirtbikes-submenu" ).hide();});
+		$( "#mega-menu-dirtbikes-submenu" ).mouseenter(function() {$( "#mega-menu-dirtbikes-submenu" ).show();});
+		$( "#mega-menu-dirtbikes-submenu" ).mouseleave(function() {$( "#mega-menu-dirtbikes-submenu" ).hide(100);});
+		
+			
+		$( "#mega-menu-go-karts" ).mouseenter(function() {$( "#mega-menu-go-karts-submenu" ).show(300);});
+		$( "#mega-menu-go-karts" ).mouseleave(function() {$( "#mega-menu-go-karts-submenu" ).hide();});
+		$( "#mega-menu-go-karts-submenu" ).mouseenter(function() {$( "#mega-menu-go-karts-submenu" ).show();});
+		$( "#mega-menu-go-karts-submenu" ).mouseleave(function() {$( "#mega-menu-go-karts-submenu" ).hide(100);});
+
+			
+		$( "#mega-menu-mopeds-trikes" ).mouseenter(function() {$( "#mega-menu-mopeds-trikes-submenu" ).show(300);});
+		$( "#mega-menu-mopeds-trikes" ).mouseleave(function() {$( "#mega-menu-mopeds-trikes-submenu" ).hide();});
+		$( "#mega-menu-mopeds-trikes-submenu" ).mouseenter(function() {$( "#mega-menu-mopeds-trikes-submenu" ).show();});
+		$( "#mega-menu-mopeds-trikes-submenu" ).mouseleave(function() {$( "#mega-menu-mopeds-trikes-submenu" ).hide(100);});	
+		
+		
+		$( "#mega-menu-mobility-scooters" ).mouseenter(function() {$( "#mega-menu-mobility-scooters-submenu" ).show(300);});
+		$( "#mega-menu-mobility-scooters" ).mouseleave(function() {$( "#mega-menu-mobility-scooters-submenu" ).hide();});
+		$( "#mega-menu-mobility-scooters-submenu" ).mouseenter(function() {$( "#mega-menu-mobility-scooters-submenu").show();});
+		$( "#mega-menu-mobility-scooters-submenu" ).mouseleave(function() {$( "#mega-menu-mobility-scooters-submenu").hide(100);});
+			
+		
+		$( "#mega-menu-utvs-golf-carts" ).mouseenter(function() {$( "#mega-menu-utvs-golf-carts-submenu" ).show(300);}); 
+		$( "#mega-menu-utvs-golf-carts" ).mouseleave(function() {$( "#mega-menu-utvs-golf-carts-submenu" ).hide();});
+		$( "#mega-menu-utvs-golf-carts-submenu" ).mouseenter(function() {$( "#mega-menu-utvs-golf-carts-submenu" ).show();});
+		$( "#mega-menu-utvs-golf-carts-submenu" ).mouseleave(function() {$( "#mega-menu-utvs-golf-carts-submenu" ).hide(100);});
+		
+		
+		$( "#mega-menu-electric-units" ).mouseenter(function() {$( "#mega-menu-electric-units-submenu" ).show(300);}); 
+		$( "#mega-menu-electric-units" ).mouseleave(function() {$( "#mega-menu-electric-units-submenu" ).hide();});
+		$( "#mega-menu-electric-units-submenu" ).mouseenter(function() {$( "#mega-menu-electric-units-submenu" ).show();});
+		$( "#mega-menu-electric-units-submenu" ).mouseleave(function() {$( "#mega-menu-electric-units-submenu" ).hide(100);});
+		
+	
+		$( "#mega-menu-radio-control" ).mouseenter(function() {$( "#mega-menu-radio-control-submenu" ).show(300);});
+		$( "#mega-menu-radio-control" ).mouseleave(function() {$( "#mega-menu-radio-control-submenu" ).hide();});
+		$( "#mega-menu-radio-control-submenu" ).mouseenter(function() {$( "#mega-menu-radio-control-submenu" ).show();});
+		$( "#mega-menu-radio-control-submenu" ).mouseleave(function() {$( "#mega-menu-radio-control-submenu" ).hide(100);});
+			
+	});
+});
+</script>
